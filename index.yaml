@@ -3,7 +3,7 @@ entries:
   orkor-api-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:28:08.578443471+03:00"
+    created: "2023-07-09T12:54:29.364942356+03:00"
     description: A Helm chart for Kubernetes
     digest: 6b711c314f1a7f1befba0547b6ae14285b859bbe44d91707593456d2c4c464cf
     name: orkor-api-chart
@@ -14,34 +14,34 @@ entries:
   orkor-kafka-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:28:08.578788917+03:00"
+    created: "2023-07-09T12:54:29.365337571+03:00"
     description: A Helm chart for Kubernetes
     digest: 8bc150eb93eded7826ae72088a1c863c66cd7778416bae305d8686c06f2526db
     name: orkor-kafka-chart
     type: application
     urls:
-    - https://orkoresh4.github.io/orkorchart/helm-chart-sources/orkor-kafka-chart-0.1.0.tgz
+    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-kafka-chart-0.1.0.tgz
     version: 0.1.0
   orkor-mongo-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:28:08.57915789+03:00"
+    created: "2023-07-09T12:54:29.365686865+03:00"
     description: A Helm chart for Kubernetes
     digest: 19a5bc83aa24f07d97c1b8a9e020db79917f461f2ac6ae1765f5c45a02b6c651
     name: orkor-mongo-chart
     type: application
     urls:
-    - https://orkoresh4.github.io/orkorchart/helm-chart-sources/orkor-mongo-chart-0.1.0.tgz
+    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-mongo-chart-0.1.0.tgz
     version: 0.1.0
   orkor-web-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:28:08.579506533+03:00"
+    created: "2023-07-09T12:54:29.366034573+03:00"
     description: A Helm chart for Kubernetes
     digest: 38b707702aed2730a13372c98ada0b366077d2170b64b2e22dad1cb8243efc5d
     name: orkor-web-chart
     type: application
     urls:
-    - https://orkoresh4.github.io/orkorchart/helm-chart-sources/orkor-web-chart-0.1.0.tgz
+    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-web-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-09T12:28:08.577966023+03:00"
+generated: "2023-07-09T12:54:29.364479138+03:00"
