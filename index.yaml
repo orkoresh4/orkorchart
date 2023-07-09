@@ -9,7 +9,7 @@ entries:
     name: orkor-api-chart
     type: application
     urls:
-    - https://orkoresh4.github.io/orkorchart/helm-chart-sources/orkor-api-chart-0.1.0.tgz
+    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-api-chart-0.1.0.tgz
     version: 0.1.0
   orkor-kafka-chart:
   - apiVersion: v2
