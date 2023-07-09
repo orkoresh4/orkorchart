@@ -20,11 +20,13 @@ helm repo add orkorhelm https://orkoresh4.github.io/orkorchart/
 
 ## Fetching and Installing Charts
 - To fetch and install a specific chart, use the helm install command followed by the name of the chart and a release name:
+
+  ```
 	helm install kafka orkorhelm/orkor-kafka-chart
 	helm install mongo orkorhelm/orkor-mongo-chart
 	helm install web orkorhelm/orkor-web-chart
 	helm install api orkorhelm/orkor-api-chart
-
+  ```
 
 
 
