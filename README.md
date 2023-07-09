@@ -51,7 +51,7 @@ API:
 * When Kafka is up and running, run consume request so the API server will start consuming from kafka:
 
 ```
-׳׳
+
 	curl -X POST http://<api SERVICE IP>:5010/consume
 
 ```
