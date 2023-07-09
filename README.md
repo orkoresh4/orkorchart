@@ -38,42 +38,45 @@ helm repo add orkorhelm https://orkoresh4.github.io/orkorchart/
 Kafka:
 
 * If you want to debug Kafk  ,add kafaka-service IP to etc/hosts:
-
+```
 	<kafka-service SERVICE IP> kafka-service
-
+```
 * Check that kafka topic is getting updated:
+  ```
 	kafkacat -b <kafka-service SERVICE IP>:9092 -C -t orkor
-
+  ```
 API:
 
 
 * When Kafka is up and running, run consume request so the API server will start consuming from kafka:
 
+```
+׳׳
 	curl -X POST http://<api SERVICE IP>:5010/consume
 
-
+```
 
 
 Web:
 
 * Preform Buy Request
-
+```
  curl -X POST -H "Content-Type: application/json" -d '{"username": "helmkafka", "userid": "111123", "price": 1222, "timestamp": "2023-07-07T12:00:00"}' http://<web SERVICE IP>:5080/buy
-
+```
  * Handle a “getAllUserBuys” request:
-
+```
  curl http://<web SERVICE IP>:5080/getAllUserBuys
-
+```
  Mongo:
 
  * Login to mongo to verify buy reqeusts have been updated:
-
-  1.   mongo --host <mongo-nodeport-svc SERVICE IP> --port 27017 --username adminuser --password password123 --authenticationDatabase admin
+```
+  mongo --host <mongo-nodeport-svc SERVICE IP> --port 27017 --username adminuser --password password123 --authenticationDatabase admin
   
-  2.   use testdb
+  use testdb
 
-  3.   db.testcollection.find()
-
+  db.testcollection.find()
+```
 
 
 
