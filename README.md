@@ -10,13 +10,16 @@ This repository contains a collection of Helm charts for the task. Follow the in
 
 To access the OrkorChart Helm repository, you need to add it as a repository in Helm. Use the following command:
 
-
+```
 helm repo add orkorhelm https://orkoresh4.github.io/orkorchart/
-
+```
 
 ## Searching for Available Charts
+
 - To see the available charts in the OrkorChart repository, use the following command:
+ ```
  helm search repo orkorhelm
+ ```
 
 ## Fetching and Installing Charts
 - To fetch and install a specific chart, use the helm install command followed by the name of the chart and a release name:
@@ -29,10 +32,16 @@ helm repo add orkorhelm https://orkoresh4.github.io/orkorchart/
   ```
 
 
+API:
 
-- Replace my-api with your desired release name and orkor-api-chart with the name of the chart you want to install.
 
+* When Kafka is up and running, run consume request so the API server will start consuming from kafka:
 
+```
+
+	curl -X POST http://<api SERVICE IP>:5010/consume
+
+```
 
 
 
@@ -47,16 +56,7 @@ Kafka:
   ```
 	kafkacat -b <kafka-service SERVICE IP>:9092 -C -t orkor
   ```
-API:
 
-
-* When Kafka is up and running, run consume request so the API server will start consuming from kafka:
-
-```
-
-	curl -X POST http://<api SERVICE IP>:5010/consume
-
-```
 
 
 Web:
