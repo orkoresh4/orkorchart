@@ -60,8 +60,7 @@ Web:
  curl http://<web SERVICE IP>:5080/getAllUserBuys
 ```
 
-For Debug:
-
+## For Debug
  Mongo:
 
  * Login to mongo to verify buy reqeusts have been updated:
