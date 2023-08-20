@@ -47,17 +47,6 @@ API:
 
 
 
-Kafka:
-
-* If you want to debug Kafk  ,add kafaka-service IP to etc/hosts:
-```
-	<kafka-service SERVICE IP> kafka-service
-```
-* Check that kafka topic is getting updated:
-  ```
-	kafkacat -b <kafka-service SERVICE IP>:9092 -C -t orkor
-  ```
-
 
 
 Web:
@@ -70,6 +59,9 @@ Web:
 ```
  curl http://<web SERVICE IP>:5080/getAllUserBuys
 ```
+
+For Debug:
+
  Mongo:
 
  * Login to mongo to verify buy reqeusts have been updated:
@@ -80,6 +72,17 @@ Web:
 
   db.testcollection.find()
 ```
+
+Kafka:
+
+* If you want to debug Kafk  ,add kafaka-service IP to etc/hosts:
+```
+	<kafka-service SERVICE IP> kafka-service
+```
+* Check that kafka topic is getting updated:
+  ```
+	kafkacat -b <kafka-service SERVICE IP>:9092 -C -t orkor
+  ```
 
 
 
