@@ -5,6 +5,7 @@ This repository contains a collection of Helm charts for the task. Follow the in
 ## Prerequisites
 
 - Helm CLI installed on your machine. See the Helm documentation for installation instructions.
+- For Debug purpose: mongodb-clients, kafkacat
 
 ## Adding the Helm Repository
 
