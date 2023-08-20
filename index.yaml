@@ -3,45 +3,45 @@ entries:
   orkor-api-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:54:29.364942356+03:00"
+    created: "2023-08-20T16:26:38.812626342+03:00"
     description: A Helm chart for Kubernetes
-    digest: 6b711c314f1a7f1befba0547b6ae14285b859bbe44d91707593456d2c4c464cf
+    digest: 11c789d19e3ec5bc8158f27e48b3088bd488ded2497b4684b0702108e3997014
     name: orkor-api-chart
     type: application
     urls:
-    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-api-chart-0.1.0.tgz
+    - orkor-api-chart/orkor-api-chart-0.1.0.tgz
     version: 0.1.0
   orkor-kafka-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:54:29.365337571+03:00"
+    created: "2023-08-20T16:26:38.813053048+03:00"
     description: A Helm chart for Kubernetes
-    digest: 8bc150eb93eded7826ae72088a1c863c66cd7778416bae305d8686c06f2526db
+    digest: bcffde4ea20c04a1707b519ea9bf8c6894a4becd827b10e5a1a5610df3507da2
     name: orkor-kafka-chart
     type: application
     urls:
-    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-kafka-chart-0.1.0.tgz
+    - orkor-kafka-chart/orkor-kafka-chart-0.1.0.tgz
     version: 0.1.0
   orkor-mongo-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:54:29.365686865+03:00"
+    created: "2023-08-20T16:26:38.813426283+03:00"
     description: A Helm chart for Kubernetes
-    digest: 19a5bc83aa24f07d97c1b8a9e020db79917f461f2ac6ae1765f5c45a02b6c651
+    digest: 2c27ff51ea1ee12b1d82c509a6c0fccce69cb6bb57171bd1af0ad0b2203e40a7
     name: orkor-mongo-chart
     type: application
     urls:
-    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-mongo-chart-0.1.0.tgz
+    - orkor-mongo-chart/orkor-mongo-chart-0.1.0.tgz
     version: 0.1.0
   orkor-web-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-09T12:54:29.366034573+03:00"
+    created: "2023-08-20T16:26:38.813746079+03:00"
     description: A Helm chart for Kubernetes
-    digest: 38b707702aed2730a13372c98ada0b366077d2170b64b2e22dad1cb8243efc5d
+    digest: 3906a5dddb830f041bb155d315ff7cdf11efd5ee9046040b181cf774c95a762a
     name: orkor-web-chart
     type: application
     urls:
-    - https://github.com/orkoresh4/orkorchart/tree/main/helm-chart-sources/orkor-web-chart-0.1.0.tgz
+    - orkor-web-chart/orkor-web-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-09T12:54:29.364479138+03:00"
+generated: "2023-08-20T16:26:38.812108858+03:00"
