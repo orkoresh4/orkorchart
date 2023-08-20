@@ -83,10 +83,6 @@ Web:
 
 
 
-You can find the scripts for web and api servers in scripts folder:
-
-https://github.com/orkoresh4/orkorchart.git
-
 
 
 
