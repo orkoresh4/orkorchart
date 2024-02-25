@@ -1,6 +1,6 @@
 # OrkorChart Helm Repository
 
-This repository contains a collection of Helm charts for the task. Follow the instructions below to fetch and install the desired artifacts using Helm.
+This repository contains a collection of Helm charts. Follow the instructions below to fetch and install the desired artifacts using Helm.
 
 ## Prerequisites
 
